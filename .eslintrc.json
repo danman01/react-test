@@ -1,0 +1,24 @@
+{
+  "extends": ["plugin:react/recommended"],
+  "root": true,
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+      "node": true,
+      "es6": true
+  },
+  "rules": {
+    "prefer-const": "error",
+    "no-var": "error",
+    "semi": [
+      "error",
+      "never"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "indent": ["error", 2]
+  }
+}
